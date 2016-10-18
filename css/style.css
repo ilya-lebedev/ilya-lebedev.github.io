@@ -1,0 +1,58 @@
+img, embed, object, video {
+    max-width: 100%; /* safe from overflowing*/
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.text-thick {
+    font-weight: 400;
+}
+
+.content {
+    max-width: 1200px;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #BCBBBB;
+}
+
+.main-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title{
+    margin-left: 20px;
+    color: #bcbbbb;
+}
+
+.project {
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    margin: 10px;
+}
+
+.contact-name {
+    font-size: 24px;
+    color: #747704;
+    font-weight: 300;
+}
